@@ -1,0 +1,23 @@
+.modal-shadow {
+	position: absolute;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	background: rgba(0, 0, 0, 0.4);
+	display: flex;
+}
+
+.modal-container {
+	height: 400px;
+	width: 500px;
+	background: white;
+	position: fixed;
+	border-radius: 4px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.warning {
+	color: red;
+}

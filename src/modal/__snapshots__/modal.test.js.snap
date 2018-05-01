@@ -1,0 +1,85 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Modal should match snapshot when body is a html element 1`] = `
+<div
+  class="modal-shadow"
+  onClick={undefined}
+>
+  <div
+    className="modal-container"
+  >
+    <div>
+      <div
+        className="modal-title-container"
+      >
+        <h1
+          className="modal-title"
+        >
+          title
+        </h1>
+      </div>
+      <div
+        className="modal-subtitle-container"
+      >
+        <h4>
+          subtitle
+        </h4>
+      </div>
+      <div
+        className="modal-body-container"
+      >
+        <div>
+          hello world
+        </div>
+      </div>
+    </div>
+    <button
+      onClick={undefined}
+    >
+      this is the close modal button
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Modal should match snapshot when body is a string 1`] = `
+<div
+  class="modal-shadow"
+  onClick={undefined}
+>
+  <div
+    className="modal-container"
+  >
+    <div>
+      <div
+        className="modal-title-container"
+      >
+        <h1
+          className="modal-title"
+        >
+          title
+        </h1>
+      </div>
+      <div
+        className="modal-subtitle-container"
+      >
+        <h4>
+          subtitle
+        </h4>
+      </div>
+      <div
+        className="modal-body-container"
+      >
+        <p>
+          owdfhlosdfhlsdhflsdhflsh
+        </p>
+      </div>
+    </div>
+    <button
+      onClick={undefined}
+    >
+      this is the close modal button
+    </button>
+  </div>
+</div>
+`;

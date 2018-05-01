@@ -1,0 +1,701 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Homepage should match snapshot when modal closed 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <App />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <h1>
+          Modal Example
+</h1>,
+        <div>
+          <h2>
+                    Base Modal
+          </h2>
+          <button
+                    className="modal-base-toggle"
+                    onClick={[Function]}
+          >
+                    this will activate base modal
+          </button>
+</div>,
+        <div>
+          <h2>
+                    Warning Modal
+          </h2>
+          <button
+                    className="modal-warning-toggle"
+                    onClick={[Function]}
+          >
+                    this will activate warning modal
+          </button>
+</div>,
+      ],
+      "className": "App",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Modal Example",
+        },
+        "ref": null,
+        "rendered": "Modal Example",
+        "type": "h1",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <h2>
+              Base Modal
+</h2>,
+            <button
+              className="modal-base-toggle"
+              onClick={[Function]}
+>
+              this will activate base modal
+</button>,
+            null,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Base Modal",
+            },
+            "ref": null,
+            "rendered": "Base Modal",
+            "type": "h2",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "this will activate base modal",
+              "className": "modal-base-toggle",
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": "this will activate base modal",
+            "type": "button",
+          },
+          null,
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <h2>
+              Warning Modal
+</h2>,
+            <button
+              className="modal-warning-toggle"
+              onClick={[Function]}
+>
+              this will activate warning modal
+</button>,
+            null,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Warning Modal",
+            },
+            "ref": null,
+            "rendered": "Warning Modal",
+            "type": "h2",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "this will activate warning modal",
+              "className": "modal-warning-toggle",
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": "this will activate warning modal",
+            "type": "button",
+          },
+          null,
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <h1>
+            Modal Example
+</h1>,
+          <div>
+            <h2>
+                        Base Modal
+            </h2>
+            <button
+                        className="modal-base-toggle"
+                        onClick={[Function]}
+            >
+                        this will activate base modal
+            </button>
+</div>,
+          <div>
+            <h2>
+                        Warning Modal
+            </h2>
+            <button
+                        className="modal-warning-toggle"
+                        onClick={[Function]}
+            >
+                        this will activate warning modal
+            </button>
+</div>,
+        ],
+        "className": "App",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Modal Example",
+          },
+          "ref": null,
+          "rendered": "Modal Example",
+          "type": "h1",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <h2>
+                Base Modal
+</h2>,
+              <button
+                className="modal-base-toggle"
+                onClick={[Function]}
+>
+                this will activate base modal
+</button>,
+              null,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Base Modal",
+              },
+              "ref": null,
+              "rendered": "Base Modal",
+              "type": "h2",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "this will activate base modal",
+                "className": "modal-base-toggle",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": "this will activate base modal",
+              "type": "button",
+            },
+            null,
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <h2>
+                Warning Modal
+</h2>,
+              <button
+                className="modal-warning-toggle"
+                onClick={[Function]}
+>
+                this will activate warning modal
+</button>,
+              null,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Warning Modal",
+              },
+              "ref": null,
+              "rendered": "Warning Modal",
+              "type": "h2",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "this will activate warning modal",
+                "className": "modal-warning-toggle",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": "this will activate warning modal",
+              "type": "button",
+            },
+            null,
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
+
+exports[`Homepage should matchsnapshot when modal open 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <App />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <h1>
+          Modal Example
+</h1>,
+        <div>
+          <h2>
+                    Base Modal
+          </h2>
+          <button
+                    className="modal-base-toggle"
+                    onClick={[Function]}
+          >
+                    this will activate base modal
+          </button>
+          <Modal
+                    closeModal={[Function]}
+                    modalBody={
+                              <div>
+                                        hello world
+                              </div>
+                    }
+                    subtitle="test subtitle"
+                    title="test modal"
+          />
+</div>,
+        <div>
+          <h2>
+                    Warning Modal
+          </h2>
+          <button
+                    className="modal-warning-toggle"
+                    onClick={[Function]}
+          >
+                    this will activate warning modal
+          </button>
+</div>,
+      ],
+      "className": "App",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Modal Example",
+        },
+        "ref": null,
+        "rendered": "Modal Example",
+        "type": "h1",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <h2>
+              Base Modal
+</h2>,
+            <button
+              className="modal-base-toggle"
+              onClick={[Function]}
+>
+              this will activate base modal
+</button>,
+            <Modal
+              closeModal={[Function]}
+              modalBody={
+                            <div>
+                                          hello world
+                            </div>
+              }
+              subtitle="test subtitle"
+              title="test modal"
+/>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Base Modal",
+            },
+            "ref": null,
+            "rendered": "Base Modal",
+            "type": "h2",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "this will activate base modal",
+              "className": "modal-base-toggle",
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": "this will activate base modal",
+            "type": "button",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "closeModal": [Function],
+              "modalBody": <div>
+                hello world
+</div>,
+              "subtitle": "test subtitle",
+              "title": "test modal",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <h2>
+              Warning Modal
+</h2>,
+            <button
+              className="modal-warning-toggle"
+              onClick={[Function]}
+>
+              this will activate warning modal
+</button>,
+            null,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Warning Modal",
+            },
+            "ref": null,
+            "rendered": "Warning Modal",
+            "type": "h2",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "this will activate warning modal",
+              "className": "modal-warning-toggle",
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": "this will activate warning modal",
+            "type": "button",
+          },
+          null,
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <h1>
+            Modal Example
+</h1>,
+          <div>
+            <h2>
+                        Base Modal
+            </h2>
+            <button
+                        className="modal-base-toggle"
+                        onClick={[Function]}
+            >
+                        this will activate base modal
+            </button>
+            <Modal
+                        closeModal={[Function]}
+                        modalBody={
+                                    <div>
+                                                hello world
+                                    </div>
+                        }
+                        subtitle="test subtitle"
+                        title="test modal"
+            />
+</div>,
+          <div>
+            <h2>
+                        Warning Modal
+            </h2>
+            <button
+                        className="modal-warning-toggle"
+                        onClick={[Function]}
+            >
+                        this will activate warning modal
+            </button>
+</div>,
+        ],
+        "className": "App",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Modal Example",
+          },
+          "ref": null,
+          "rendered": "Modal Example",
+          "type": "h1",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <h2>
+                Base Modal
+</h2>,
+              <button
+                className="modal-base-toggle"
+                onClick={[Function]}
+>
+                this will activate base modal
+</button>,
+              <Modal
+                closeModal={[Function]}
+                modalBody={
+                                <div>
+                                                hello world
+                                </div>
+                }
+                subtitle="test subtitle"
+                title="test modal"
+/>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Base Modal",
+              },
+              "ref": null,
+              "rendered": "Base Modal",
+              "type": "h2",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "this will activate base modal",
+                "className": "modal-base-toggle",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": "this will activate base modal",
+              "type": "button",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "closeModal": [Function],
+                "modalBody": <div>
+                  hello world
+</div>,
+                "subtitle": "test subtitle",
+                "title": "test modal",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <h2>
+                Warning Modal
+</h2>,
+              <button
+                className="modal-warning-toggle"
+                onClick={[Function]}
+>
+                this will activate warning modal
+</button>,
+              null,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Warning Modal",
+              },
+              "ref": null,
+              "rendered": "Warning Modal",
+              "type": "h2",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "this will activate warning modal",
+                "className": "modal-warning-toggle",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": "this will activate warning modal",
+              "type": "button",
+            },
+            null,
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
